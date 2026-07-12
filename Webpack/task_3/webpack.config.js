@@ -16,8 +16,16 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    static: path.resolve(__dirname, 'public'),
+    contentBase: path.resolve(__dirname, 'public'),
     port: 8564,
+    watchOptions: {
+      poll: true,
+      ignored: /node_modules/,
+    },
+  },
+  watchOptions: {
+    poll: true,
+    ignored: /node_modules/,
   },
   module: {
     rules: [
