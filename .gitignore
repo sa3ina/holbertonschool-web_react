@@ -3,6 +3,8 @@ node_modules/
 
 # Build output
 dist/
+!Webpack/task_0/dist/
+!Webpack/task_0/dist/index.html
 
 # npm generated files for these tasks
 package-lock.json
