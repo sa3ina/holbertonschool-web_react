@@ -8,20 +8,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={holbertonLogo} alt="holberton logo" />
-        <h1>School dashboard</h1>
+        <h1>School Dashboard</h1>
       </header>
 
       <div className="App-body">
         <p>Login to access the full dashboard</p>
       </div>
 
-      <footer className="App-footer">
-        <p>copyright - Holberton School</p>
-        <p>copyright {currentYear} - Holberton School</p>
-      </footer>
+      <div className="App-footer">
+        <p>Copyright {currentYear} - holberton School</p>
+      </div>
     </div>
   );
 }
-
 
 export default App;
